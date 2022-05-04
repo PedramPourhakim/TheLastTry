@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace IdentityApp.Pages
 {
-    public class IndexModel : PageModel
+    public class InDexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly ILogger<InDexModel> _logger;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public InDexModel(ILogger<InDexModel> logger)
         {
             _logger = logger;
         }
